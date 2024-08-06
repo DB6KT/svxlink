@@ -1,4 +1,15 @@
- 1.7.0 -- ?? ??? ????
+ 1.8.0 -- ?? ??? ????
+----------------------
+
+* Code cleanup of Async::Pty, fixing a small memory leak.
+
+* TLS connection support added. Build require OpenSSL development files.
+
+* Async::Exec: Now possible to set up environment variables.
+
+
+
+ 1.7.0 -- 25 Feb 2024
 ----------------------
 
 * ASYNC_AUDIO_ALSA_ZEROFILL is now enabled by default.
